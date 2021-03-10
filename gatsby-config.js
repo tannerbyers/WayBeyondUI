@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: 'THE FORM ACTION WE JUST COPIED',
+        endpoint: 'https://yourDomainHere.us18.list-manage.com/subscribe/post?u=1512315231251&amp;id=0asd21t12e1',
       },
     },
     'gatsby-plugin-sass',

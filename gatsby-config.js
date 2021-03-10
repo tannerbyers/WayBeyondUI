@@ -19,6 +19,12 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'THE FORM ACTION WE JUST COPIED',
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],

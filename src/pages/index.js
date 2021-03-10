@@ -9,10 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/aboutnew.jpg';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.png';
+import ipad from '../assets/images/about.png';
 
 import pic1 from '../assets/images/pic1.png';
 import pic2 from '../assets/images/pic2.png';
@@ -45,11 +42,16 @@ const IndexPage = () => (
             <p className="text-white-50">
               Hi! My name is Bálint, and I'm working on a lo-fi, open-world 2D
               roguelite called Way Beyond! It's been in development since 2016
-              and I'm using the LÖVE framework. 
+              and I'm using the LÖVE framework.
+              <br></br>
+              <b>
+                Checkout the current demo here:
+                <a href="https://balintm.itch.io/waybeyond">  Itch.io</a>
+              </b>
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid w100" alt="" />
+        <img src={ipad} className="img-fluid w-100" alt="" />
       </div>
     </section>
 
@@ -63,8 +65,8 @@ const IndexPage = () => (
             <div className="featured-text text-center text-lg-left">
               <h4>Open World</h4>
               <p className="text-black-50 mb-0">
-                Tons of content: 
-                Biomes, Monsters, Items, Dungeons, and so much more! 
+                Tons of content: Biomes, Monsters, Items, Dungeons, and so much
+                more!
               </p>
             </div>
           </div>
@@ -80,7 +82,8 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">Forest</h4>
                   <p className="mb-0 text-white-50">
-                    I dont have anything for this yet but will add as I work more on it
+                    I dont have anything for this yet but will add as I work
+                    more on it
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>

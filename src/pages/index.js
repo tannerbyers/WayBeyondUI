@@ -18,18 +18,18 @@ import pic3 from '../assets/images/pic3.png';
 const IndexPage = () => (
   <Layout>
     <Header />
-    <header className="masthead ">
+    <header id="page-top" className="masthead ">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
           <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-dark mt-4">
-              About
-            </a>
-          </Scroll>
+          {/* <Scroll type="id" element="about"> */}
+          <a href="#signup" className="btn btn-dark mt-4">
+            Email me updates!
+          </a>
+          {/* </Scroll> */}
         </div>
       </div>
     </header>
@@ -58,7 +58,7 @@ const IndexPage = () => (
     <section id="projects" className="projects-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div className="col-xl-8 col-lg-7">
+          <div className="col-xl-8 col-lg-7 h-50">
             <video
               autoPlay
               muted
@@ -127,7 +127,9 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <Subscribe />
+    <section id="signup">
+      <Subscribe />
+    </section>
 
     <SocialLinks />
     <Footer />

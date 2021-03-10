@@ -46,7 +46,7 @@ const IndexPage = () => (
               <br></br>
               <b>
                 Checkout the current demo here:
-                <a href="https://balintm.itch.io/waybeyond">  Itch.io</a>
+                <a href="https://balintm.itch.io/waybeyond"> Itch.io</a>
               </b>
             </p>
           </div>
@@ -59,7 +59,19 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={pic1} alt="" />
+            <video
+              autoPlay
+              muted
+              loop
+              preload="auto"
+              playsinline=""
+              aria-label="Embedded video"
+              disablepictureinpicture=""
+              poster="https://pbs.twimg.com/tweet_video_thumb/EwJYK2cWQAQuIcO.jpg"
+              src="https://video.twimg.com/tweet_video/EwJYK2cWQAQuIcO.mp4"
+              type="video/mp4"
+            ></video>
+            {/* <img className="img-fluid mb-3 mb-lg-0" src={pic1} alt="" /> */}
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">

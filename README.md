@@ -12,7 +12,7 @@ programtanner@gmail.com
 
 ## Screenshot
 
-![Screenshot](./src/assets/video/horizon.mp4)
+![Screenshot](./src/assets/images/demo.png)
 
 ## Install
 
